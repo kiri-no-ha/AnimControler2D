@@ -70,7 +70,7 @@ namespace animator
             SwitchAnimation(defaultAnimation);
         }
 
-        void FixedUpdate()
+        void Update()
         {
             if (!isPlaying || currentSequence == null)
                 return;
