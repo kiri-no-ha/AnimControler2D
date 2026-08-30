@@ -469,14 +469,14 @@ MonoBehaviour:
     - {fileID: -1858668265, guid: 96bcc610f76168a46921b02bd15a6e54, type: 3}
     - {fileID: 778723250, guid: 96bcc610f76168a46921b02bd15a6e54, type: 3}
     - {fileID: 1903550130, guid: 96bcc610f76168a46921b02bd15a6e54, type: 3}
-    framesPerSecond: 10
+    framesPerSecond: 2
     loop: 1
     triggers: []
   - name: Idle
     frames:
     - {fileID: -1945387256, guid: 65db801a362d8be48af1d767c7bcf39a, type: 3}
     - {fileID: -1453547370, guid: 65db801a362d8be48af1d767c7bcf39a, type: 3}
-    framesPerSecond: 2
+    framesPerSecond: 1
     loop: 1
     triggers: []
   defaultAnimation: Idle
@@ -491,7 +491,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
